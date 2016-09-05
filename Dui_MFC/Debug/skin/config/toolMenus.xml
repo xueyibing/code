@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<Window >
+    <MenuContainer interval="-3" keyevent="true">
+		<MyMenu name="major" width="120" height="50"  bkcolor="#FF318ECD" major="true" bktrans="false">
+		   <MenuItem command="new" height="22"  padding="4,4,4,0"  extendmenu="reserve">
+		         <HorizontalLayout>
+				    <Control width="36"/>
+		            <Label name="menu_label" textcolor="#FFFFFFFF" text="帮助主题(H)F1"/>
+					<Control width="3"/>
+					   
+				 </HorizontalLayout>
+		   </MenuItem>
+		   
+		    <MenuItem command="open" height="22"  padding="4,0,4,0" extendmenu="reserve">
+		         <HorizontalLayout>
+				    <Control width="36"/>
+		               <Label name="menu_label" textcolor="#FFFFFFFF" text="关于(A)..."/>
+				 </HorizontalLayout>
+		   </MenuItem>
+		   
+		</MyMenu>
+		
+		
+		
+		
+		
+		<MyMenu name="reserve" width="120" height="30" bkcolor="#FF318ECD" >
+		    <MenuItem command="reserve" height="22"  padding="4,4,4,0">
+		         <HorizontalLayout>
+				    <Control width="20"/>
+		               <Label name="menu_label" textcolor="#FFFFFFFF" text="备用"/>
+				 </HorizontalLayout>
+		   </MenuItem> 
+		</MyMenu>
+		
+		
+		
+	</MenuContainer>
+</Window>

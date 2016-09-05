@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Windo3w bkimage="file='png\menuBk.png'">
+	<HorizontalLayout bkcolor="#FF668B8B" height="20">
+		<Text text="状态栏" textcolor="#FFFFFFFF" font="1" float="true" pos="5,5,170,30"></Text>
+	</HorizontalLayout>
+
+</Windo3w>

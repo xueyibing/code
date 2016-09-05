@@ -1,0 +1,135 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+
+<Window >
+    <MenuContainer interval="-3" keyevent="true">
+		<MyMenu name="major" width="135" height="156"  bkcolor="#FF318ECD" major="true" bktrans="false">
+		   <MenuItem command="new" height="22"  padding="4,4,4,0"  extendmenu="reserve">
+		         <HorizontalLayout>
+				    <Control width="36"/>
+		            <Label name="menu_label" font="0" textcolor="#FFFFFFFF" text="指标列表(I)"/>
+					<Control width="3"/>
+					   
+				 </HorizontalLayout>
+		   </MenuItem>
+		   
+		    <MenuItem command="open" height="22"  padding="4,0,4,0" extendmenu="reserve">
+		         <HorizontalLayout>
+				    <Control width="36"/>
+		               <Label name="menu_label" font="0" textcolor="#FFFFFFFF" text="交易对象列表(O)"/>
+				 </HorizontalLayout>
+		   </MenuItem>
+		   
+		   <MenuItem command="files" height="22"  padding="4,0,4,0" extendmenu="reserve">
+		         <HorizontalLayout>
+				    <Control width="36"/>
+		               <Label name="menu_label" font="0" textcolor="#FFFFFFFF" text="交易系统列表(E)"/>
+				 </HorizontalLayout>
+		   </MenuItem>
+		   
+		   <StaticMenuItem  height="11" padding="5,0,5,0">
+		        <VerticalLayout>
+				    <Control height="5" />
+					<Control bkcolor="#ffcdcdcc" height="1"/>
+					<Control />
+		        </VerticalLayout>
+			</StaticMenuItem>
+			
+		   <MenuItem command="close" height="22"  padding="4,0,4,0">
+		         <HorizontalLayout>
+				    <Control width="36"/>
+		            <Label name="menu_label" font="0" textcolor="#FFFFFFFF" text="柱形图(C)"/>
+					  
+				 </HorizontalLayout>
+		   </MenuItem>
+		    <MenuItem command="load" height="22"  padding="4,0,4,0">
+		         <HorizontalLayout>
+				    <Control width="36"/>
+		               <Label name="menu_label" font="0" textcolor="#FFFFFFFF" text="蜡烛图(L)"/>
+				 </HorizontalLayout>
+		   </MenuItem>
+		    <MenuItem command="quit" height="22"  padding="4,4,4,0">
+		         <HorizontalLayout>
+				    <Control width="36"/>
+		               <Label name="menu_label" font="0" textcolor="#FFFFFFFF" text="线形图(Q)"/>
+				 </HorizontalLayout>
+		   </MenuItem>
+		    <MenuItem command="quit" height="22"  padding="4,4,4,0">
+		         <HorizontalLayout>
+				    <Control width="36"/>
+		               <Label name="menu_label" font="0" textcolor="#FFFFFFFF" text="周期(P)"/>
+				 </HorizontalLayout>
+		   </MenuItem>
+		    <MenuItem command="quit" height="22"  padding="4,4,4,0">
+		         <HorizontalLayout>
+				    <Control width="36"/>
+		               <Label name="menu_label" font="0" textcolor="#FFFFFFFF" text="模板(T)"/>
+				 </HorizontalLayout>
+		   </MenuItem>
+		    <MenuItem command="quit" height="22"  padding="4,4,4,0">
+		         <HorizontalLayout>
+				    <Control width="36"/>
+		               <Label name="menu_label" font="0" textcolor="#FFFFFFFF" text="网格(G)"/>
+				 </HorizontalLayout>
+		   </MenuItem>
+		    <MenuItem command="quit" height="22"  padding="4,4,4,0">
+		         <HorizontalLayout>
+				    <Control width="36"/>
+		               <Label name="menu_label" font="0" textcolor="#FFFFFFFF" text="自动滚动(S)"/>
+				 </HorizontalLayout>
+		   </MenuItem>
+		    <MenuItem command="quit" height="22"  padding="4,4,4,0">
+		         <HorizontalLayout>
+				    <Control width="36"/>
+		               <Label name="menu_label" font="0" textcolor="#FFFFFFFF" text="图标平移(H)"/>
+				 </HorizontalLayout>
+		   </MenuItem>
+		    <MenuItem command="quit" height="22"  padding="4,4,4,0">
+		         <HorizontalLayout>
+				    <Control width="36"/>
+		               <Label name="menu_label" font="0" textcolor="#FFFFFFFF" text="交易量(V)"/>
+				 </HorizontalLayout>
+		   </MenuItem>		   
+		    <MenuItem command="quit" height="22"  padding="4,4,4,0">
+		         <HorizontalLayout>
+				    <Control width="36"/>
+		               <Label name="menu_label" font="0" textcolor="#FFFFFFFF" text="放大(I)"/>
+				 </HorizontalLayout>
+		   </MenuItem>		 
+		    <MenuItem command="quit" height="22"  padding="4,4,4,0">
+		         <HorizontalLayout>
+				    <Control width="36"/>
+		               <Label name="menu_label" font="0" textcolor="#FFFFFFFF" text="缩小(O)"/>
+				 </HorizontalLayout>
+		   </MenuItem>		 
+		    <MenuItem command="quit" height="22"  padding="4,4,4,0">
+		         <HorizontalLayout>
+				    <Control width="36"/>
+		               <Label name="menu_label" font="0" textcolor="#FFFFFFFF" text="步进(Y)"/>
+				 </HorizontalLayout>
+		   </MenuItem>		 
+		    <MenuItem command="quit" height="22"  padding="4,4,4,0">
+		         <HorizontalLayout>
+				    <Control width="36"/>
+		               <Label name="menu_label" font="0" textcolor="#FFFFFFFF" text="属性(R)"/>
+				 </HorizontalLayout>
+		   </MenuItem>		 
+
+		</MyMenu>
+		
+		
+		
+		
+		
+		<MyMenu name="reserve" width="120" height="30" bkcolor="#FF318ECD" >
+		    <MenuItem command="reserve" height="22"  padding="4,4,4,0">
+		         <HorizontalLayout>
+				    <Control width="20"/>
+		               <Label name="menu_label" font="0" textcolor="#FFFFFFFF" text="备用"/>
+				 </HorizontalLayout>
+		   </MenuItem> 
+		</MyMenu>
+		
+		
+		
+	</MenuContainer>
+</Window>

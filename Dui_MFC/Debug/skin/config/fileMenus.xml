@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<Window >
+    <MenuContainer interval="-3" keyevent="true">
+		<MyMenu name="major" font="0" width="120" height="156" bkcolor="#FF318ECD"  major="true" bktrans="false">
+		
+		   <MenuItem command="new" height="22"  padding="4,4,4,0" extendmenu="reserve" shortkey="N">
+		         <HorizontalLayout>
+				    <Control name="ico" bkimage="png\add.png" width="23" height="23" />
+					<Control name="ico_hover" bkimage="png\add_hover.png" width="23" height="23"  visible="false"/>
+					<Control width="12"/>
+		            <Label font="0" textcolor="#FFFFFFFF"  name="menu_label" text="新建(N)"/>
+					<Control name="extend" bkimage="png\menu_expand.png" width="23" height="23"  />
+					<Control name="extend_hover" bkimage="png\menu_expand_hover.png" width="23" height="23" visible="false" />
+					<Control width="3"/>   
+				 </HorizontalLayout>
+		   </MenuItem>
+		   
+		    <MenuItem command="open" shortkey="O" height="22"  padding="4,0,4,0" extendmenu="reserve">
+		         <HorizontalLayout>
+				    <Control width="36"/>
+		               <Label name="menu_label" size="6" font="0" textcolor="#FFFFFFFF" text="打开(O)"/>
+				 </HorizontalLayout>
+		   </MenuItem>
+		   
+		   <MenuItem command="files" shortkey="F" height="22"  padding="4,0,4,0" extendmenu="reserve">
+		         <HorizontalLayout>
+				    <Control width="36"/>
+		               <Label font="0" name="menu_label" textcolor="#FFFFFFFF" text="文件夹(F)"/>
+				 </HorizontalLayout>
+		   </MenuItem>
+		   
+		   <StaticMenuItem  height="11" padding="5,0,5,0">
+		        <VerticalLayout>
+				    <Control height="5" />
+					<Control bkcolor="#ffcdcdcc" height="1"/>
+					<Control />
+		        </VerticalLayout>
+			</StaticMenuItem>
+			
+		   <MenuItem command="close" shortkey="C" height="22"  padding="4,0,4,0">
+		         <HorizontalLayout>
+				    <Control width="36"/>
+		            <Label name="menu_label" font="0" textcolor="#FFFFFFFF" text="关闭(C)"/>
+					  
+				 </HorizontalLayout>
+		   </MenuItem>
+		    <MenuItem command="load" shortkey="L" height="22"  padding="4,0,4,0">
+		         <HorizontalLayout>
+				    <Control width="36"/>
+		               <Label name="menu_label" font="0" textcolor="#FFFFFFFF" text="登录(L)"/>
+				 </HorizontalLayout>
+		   </MenuItem>
+		    <MenuItem command="quit"shortkey="Q" height="22"  padding="4,4,4,0">
+		         <HorizontalLayout>
+				    <Control width="36"/>
+		               <Label name="menu_label" font="0" textcolor="#FFFFFFFF" text="退出(Q)"/>
+				 </HorizontalLayout>
+		   </MenuItem>
+
+		</MyMenu>
+		
+
+		
+		<MyMenu name="reserve" shortkey="F" width="120" height="55" bkcolor="#FF318ECD" >
+		    <MenuItem command="newFile" shortkey="F"   height="22"  padding="4,4,4,0">
+		         <HorizontalLayout>
+				    <Control width="20"/>
+		               <Label name="menu_label" font="0" textcolor="#FFFFFFFF" text="文件(F)"/>
+				 </HorizontalLayout>
+		   </MenuItem> 
+		   <MenuItem command="newProject" shortkey="P" height="22"  padding="4,4,4,0">
+		         <HorizontalLayout>
+				    <Control width="20"/>
+		               <Label name="menu_label" font="0"  textcolor="#FFFFFFFF" text="项目(P)"/>
+				 </HorizontalLayout>
+		   </MenuItem> 
+		</MyMenu>
+		
+		
+		
+	</MenuContainer>
+</Window>

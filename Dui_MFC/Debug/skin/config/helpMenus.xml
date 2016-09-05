@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<Window >
+    <MenuContainer interval="-3" keyevent="true">
+		<MyMenu name="major" width="120" height="30"  bkcolor="#FF318ECD"  major="true" bktrans="false">
+		   <MenuItem command="new" height="22"  padding="4,4,4,0">
+		         <HorizontalLayout>
+				    <Control width="36"/>
+		            <Label name="menu_label" font="0" textcolor="#FFFFFFFF" text="关于(A)"/>
+					<Control width="3"/>
+					   
+				 </HorizontalLayout>
+		   </MenuItem>
+
+		</MyMenu>
+		
+
+		
+		
+		
+	</MenuContainer>
+</Window>

@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<Window >
+    <MenuContainer interval="-3" keyevent="true">
+		<MyMenu name="major" width="120" height="156"  bkcolor="#FF318ECD" major="true" bktrans="false">
+		   <MenuItem command="language" shortkey="L" height="22"  padding="4,4,4,0"  extendmenu="reserve">
+		         <HorizontalLayout>
+				    <Control width="36"/>
+		            <Label name="menu_label" font="0" textcolor="#FFFFFFFF" text="语言(L)"/>
+					<Control width="3"/>
+					   
+				 </HorizontalLayout>
+		   </MenuItem>
+		   
+		    <MenuItem command="bar" shortkey="B" height="22"  padding="4,0,4,0" extendmenu="reserve">
+		         <HorizontalLayout>
+				    <Control width="36"/>
+		               <Label name="menu_label" font="0" textcolor="#FFFFFFFF" text="工具栏(B)"/>
+				 </HorizontalLayout>
+		   </MenuItem>
+		   
+		   <MenuItem command="state"  shortkey="S" height="22"  padding="4,0,4,0" extendmenu="reserve">
+		         <HorizontalLayout>
+				    <Control width="36"/>
+		               <Label name="menu_label" font="0" textcolor="#FFFFFFFF" text="状态栏(S)"/>
+				 </HorizontalLayout>
+		   </MenuItem>
+		   
+		   <StaticMenuItem  height="11" padding="5,0,5,0">
+		        <VerticalLayout>
+				    <Control height="5" />
+					<Control bkcolor="#ffcdcdcc" height="1"/>
+					<Control />
+		        </VerticalLayout>
+			</StaticMenuItem>
+			
+		   <MenuItem command="explan" shortkey="E"  height="22"  padding="4,0,4,0">
+		         <HorizontalLayout>
+				    <Control width="36"/>
+		            <Label name="menu_label" font="0" textcolor="#FFFFFFFF" text="导航窗体(E)"/>
+					  
+				 </HorizontalLayout>
+		   </MenuItem>
+		    <MenuItem command="toolbox" shortkey="T"  height="22"  padding="4,0,4,0">
+		         <HorizontalLayout>
+				    <Control width="36"/>
+		               <Label name="menu_label" font="0" textcolor="#FFFFFFFF" text="工具箱(T)"/>
+				 </HorizontalLayout>
+		   </MenuItem>
+		    <MenuItem command="runmethod" shortkey="R"  height="22"  padding="4,4,4,0">
+		         <HorizontalLayout>
+				    <Control width="36"/>
+		               <Label name="menu_label" font="0" textcolor="#FFFFFFFF" text="策略测试(R)"/>
+				 </HorizontalLayout>
+		   </MenuItem>
+
+		</MyMenu>
+		
+		
+		
+		
+		
+		<MyMenu name="reserve" width="120" height="30" bkcolor="#FF318ECD" >
+		    <MenuItem command="reserve" height="22"  padding="4,4,4,0">
+		         <HorizontalLayout>
+				    <Control width="20"/>
+		               <Label name="menu_label" font="0" textcolor="#FFFFFFFF" text="备用"/>
+				 </HorizontalLayout>
+		   </MenuItem> 
+		</MyMenu>
+		
+		
+		
+	</MenuContainer>
+</Window>

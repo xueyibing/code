@@ -1,0 +1,41 @@
+﻿  StdAfx.cpp
+  UIManager.cpp
+  正在生成代码...
+  正在跳过...(未检测到相关更改)
+  WinImplBase.cpp
+  Utils.cpp
+  UIDelegate.cpp
+  UIlib.cpp
+  UIVerticalLayout.cpp
+  UITileLayout.cpp
+  UITabLayout.cpp
+  UIHorizontalLayout.cpp
+  UIChildLayout.cpp
+  UIRender.cpp
+  UIMarkup.cpp
+  UIDlgBuilder.cpp
+  UIControl.cpp
+  UIContainer.cpp
+  UIBase.cpp
+  UIWebBrowser.cpp
+  UITreeView.cpp
+  UIText.cpp
+  UISlider.cpp
+  UIScrollBar.cpp
+  UIRichEdit.cpp
+  UIProgress.cpp
+  UIOption.cpp
+  UIList.cpp
+  UILabel.cpp
+  UIFlash.cpp
+  UIEdit.cpp
+  UIDateTime.cpp
+  UIComboBox.cpp
+  UICombo.cpp
+  UICheckBox.cpp
+  UIButton.cpp
+  UIActiveX.cpp
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(1186,5): warning MSB8012: TargetPath(E:\WorkSpace2\branch\HKEXV2\Dui_MFC\thirdLib\duilib\DuiLib\..\dll\DuiLib_u.dll) does not match the Linker's OutputFile property value (E:\WorkSpace2\branch\HKEXV2\Dui_MFC\thirdLib\duilib\bin\DuiLib_d.dll). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(1188,5): warning MSB8012: TargetName(DuiLib_u) does not match the Linker's OutputFile property value (DuiLib_d). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+     正在创建库 ../lib/DuiLib_d.lib 和对象 ../lib/DuiLib_d.exp
+  DuiLib.vcxproj -> E:\WorkSpace2\branch\HKEXV2\Dui_MFC\thirdLib\duilib\DuiLib\..\dll\DuiLib_u.dll

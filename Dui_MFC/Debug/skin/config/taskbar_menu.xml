@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<Window >
+    <MenuContainer interval="0" >
+		<MyMenu name="taskbar" width="205" height="278" bkimage="file='png\menuBk.png' corner='5,5,5,5'" major="true" >   
+		   <StaticMenuItem height="80">
+		       <VerticalLayout>
+			       <HorizontalLayout height="13"/>
+			       <HorizontalLayout>
+				       <Button padding="35,0,0,0" width="32" height="32" normalimage="png\01548[32x32x8BPP].png" hotimage="png\01547[32x32x8BPP].png" pushedimage="png\01549[32x32x8BPP].png"/>
+					   <Button padding="20,0,0,0" width="32" height="32" normalimage="png\01552[32x32x8BPP].png" hotimage="png\01551[32x32x8BPP].png" pushedimage="png\01553[32x32x8BPP].png"/>
+					   <Button padding="20,0,0,0" width="32" height="32" normalimage="png\01560[32x32x8BPP].png" hotimage="png\01559[32x32x8BPP].png" pushedimage="png\01561[32x32x8BPP].png"/>
+				   </HorizontalLayout>
+				   <HorizontalLayout>
+				       <Label name="current_song" text="Taylor Swift - Love Story" align="center" textcolor="#ff212121"/>
+				   </HorizontalLayout>
+			   </VerticalLayout>
+		   </StaticMenuItem>
+		     <StaticMenuItem  height="9" padding="5,0,5,0">
+		        <VerticalLayout>
+				    <Control  />
+					<Control bkcolor="#ffcdcdcc" height="1"/>
+					<Control />
+		        </VerticalLayout>
+			</StaticMenuItem>
+			 <StaticMenuItem  height="27" padding="5,0,5,0">
+		       <HorizontalLayout>
+			       <Control width="10"/>
+				   <Button normalimage="file='png\Sound_normal.png' source='54,0,81,27'" hotimage="file='png\Sound_hover.png' source='54,0,81,27'" pushedimage="file='png\Sound_down.png' source='54,0,81,27'" width="27"/>
+				 <Control width="8"/>
+ 				<Slider bkimage="png\Slider_BK.png" value="40" foreimage="png\Slider_Fore.png" thumbimage="png\thumb_normal.png" thumbhotimage="png\thumb_hover.png" thumbpushedimage="png\thumb_hover.png" thumbsize="14,20" height="24" padding="0,2,0,0"/>
+		          <Control width="10"/>
+				 </HorizontalLayout>
+			</StaticMenuItem>
+		   <MenuItem height="27"  padding="1,0,1,0">
+		       <HorizontalLayout>
+				     <Control width="13"/>
+				     <Control name="ico" bkimage="png\lrc.png" width="27" height="27" />
+					 <Control name="ico_hover" bkimage="png\lrc_hover.png" width="27" height="27" visible="false"/>
+					 <Control width="10"/>
+		            <Label name="menu_label" text="显示歌词"/>
+			  </HorizontalLayout>
+		   </MenuItem>
+		    <MenuItem height="27"  padding="1,0,1,0">
+		       <HorizontalLayout>
+				     <Control width="13"/>
+				     <Control name="ico" bkimage="png\lock.png" width="27" height="27" />
+					 <Control name="ico_hover" bkimage="png\lock_hover.png" width="27" height="27" visible="false"/>
+					 <Control width="10"/>
+		            <Label name="menu_label" text="锁定歌词"/>
+			  </HorizontalLayout>
+		   </MenuItem>
+		     <StaticMenuItem  height="9" padding="5,0,5,0">
+		        <VerticalLayout>
+				    <Control  />
+					<Control bkcolor="#ffcdcdcc" height="1"/>
+					<Control />
+		        </VerticalLayout>
+			</StaticMenuItem>
+		    <MenuItem height="27"  padding="1,0,1,0">
+		       <HorizontalLayout>
+				     <Control width="13"/>
+				     <Control name="ico" bkimage="png\set.png" width="27" height="27" />
+					 <Control name="ico_hover" bkimage="png\set_hover.png" width="27" height="27" visible="false"/>
+					 <Control width="10"/>
+		            <Label name="menu_label" text="选项设置"/>
+			  </HorizontalLayout>
+		   </MenuItem>
+		     <StaticMenuItem  height="9" padding="5,0,5,0">
+		        <VerticalLayout>
+				    <Control />
+					<Control bkcolor="#ffcdcdcc" height="1"/>
+					<Control />
+		        </VerticalLayout>
+			</StaticMenuItem>
+		    <MenuItem height="28"  padding="1,0,1,0">
+		         <HorizontalLayout>
+				     <Control width="13"/>
+				     <Control name="ico" bkimage="png\loggoff.png" width="23" padding="0,3,0,0" height="23" />
+					 <Control name="ico_hover" bkimage="png\logoff_hover.png" width="23" height="23" padding="0,3,0,0" visible="false"/>
+					 <Control width="13"/>
+		            <Label name="menu_label" text="注销"/>
+			  </HorizontalLayout>
+		   </MenuItem>
+		   
+		    <MenuItem height="28"  padding="1,0,1,0">
+		       <HorizontalLayout>
+				  <Control width="48"/>
+		         <Label name="menu_label" text="退出"/>
+			   </HorizontalLayout >
+		   </MenuItem>
+		</MyMenu>
+	</MenuContainer>
+</Window>

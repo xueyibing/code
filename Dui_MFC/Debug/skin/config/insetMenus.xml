@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<Window >
+    <MenuContainer interval="-3" keyevent="true">
+		<MyMenu name="major" width="120" height="110"  bkcolor="#FF318ECD" major="true" bktrans="false">
+		   <MenuItem command="new" height="22"  padding="4,4,4,0"  extendmenu="reserve">
+		         <HorizontalLayout>
+				    <Control width="36"/>
+		            <Label name="menu_label" font="0" textcolor="#FFFFFFFF" text="指标(I)"/>
+					<Control width="3"/>
+					   
+				 </HorizontalLayout>
+		   </MenuItem>
+		   
+		    <MenuItem command="open" height="22"  padding="4,0,4,0" extendmenu="reserve">
+		         <HorizontalLayout>
+				    <Control width="36"/>
+		               <Label name="menu_label" font="0" textcolor="#FFFFFFFF" text="对象(O)"/>
+				 </HorizontalLayout>
+		   </MenuItem>
+		   
+		   <MenuItem command="files" height="22"  padding="4,0,4,0" extendmenu="reserve">
+		         <HorizontalLayout>
+				    <Control width="36"/>
+		               <Label name="menu_label" font="0" textcolor="#FFFFFFFF" text="交易系统(E)"/>
+				 </HorizontalLayout>
+		   </MenuItem>
+		   
+		   <StaticMenuItem  height="11" padding="5,0,5,0">
+		        <VerticalLayout>
+				    <Control height="5" />
+					<Control bkcolor="#ffcdcdcc" height="1"/>
+					<Control />
+		        </VerticalLayout>
+			</StaticMenuItem>
+			
+		   <MenuItem command="close" height="22"  padding="4,0,4,0">
+		         <HorizontalLayout>
+				    <Control width="36"/>
+		            <Label name="menu_label" font="0" textcolor="#FFFFFFFF" text="脚本(S)"/>
+					  
+				 </HorizontalLayout>
+		   </MenuItem>
+		</MyMenu>
+		
+		
+		
+		
+		
+		<MyMenu name="reserve" width="120" height="30"  bkcolor="#FF318ECD" >
+		    <MenuItem command="reserve" height="22"  padding="4,4,4,0">
+		         <HorizontalLayout>
+				    <Control width="20"/>
+		               <Label name="menu_label" font="0" textcolor="#FFFFFFFF" text="备用"/>
+				 </HorizontalLayout>
+		   </MenuItem> 
+		</MyMenu>
+		
+		
+		
+	</MenuContainer>
+</Window>
